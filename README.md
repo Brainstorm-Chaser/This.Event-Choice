@@ -239,15 +239,7 @@ app.post('/api/user/:id/event/:eventid/occasion', function(req, res) {
 
 ## Misc Notes
 
-* Github master branch pushes autodeploy to Heroku (sweet).
-
-## Authors
-
-* **Josh Siverson** ([siverson90.github.io](https://siverson90.github.io))
-* **Mike Murphy** ([github.com/Brainstorm-Chaser](https://github.com/Brainstorm-Chaser))
-* **David Morse** ([dbmarshall.github.io](https://dbmarshall.github.io))
-* **Yolisa Bam** ([yolisabam.github.io](https://yolisabam.github.io))
-* **Brandon Lee** ([github.com/blee2322](https://github.com/blee2322))
+* Github master branch pushes autodeploy to Heroku.
 
 ## License
 
