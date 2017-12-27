@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        <p href ="/">this.event:choice</p>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="dropdown">
+            <div class="form-group">
+        <label for="event-dropdown">Choose Your Event</label>
+        <select class="form-control" id="event-dropdown">
+           <option>Choose Your Event </option>
+           {{#each eventObj}}
+            <option value={{id}} id="{{type}}">{{type}}</option>
+           {{/each}}
+        </select>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-12">
+      {{>events/eventhistory_block}} 
+    </div>  
+  </div>  
+</div>

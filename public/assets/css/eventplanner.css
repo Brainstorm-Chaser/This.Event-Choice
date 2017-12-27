@@ -1,0 +1,204 @@
+body {
+ /* background-color: #496D89*/
+  background-image: url(../img/bg-014.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+ font-family: 'Oswald', sans-serif;
+ font-size: 30px; 
+ color: #042037;
+
+}
+h3{
+ font-family: 'Oswald', sans-serif;
+ font-size: 30px; 
+ color: white;
+}
+.panel-title{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.user-panel {
+  margin-top: 200px
+}
+
+label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#navbar a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+#navbar {
+  margin: 15px 0;
+  float: right;
+  clear: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #042037;
+  width: 110%;
+}
+.login-wrapper {
+  margin-top: 150px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  border: 5px solid black;
+}
+#login-button{
+  font-family: 'Oswald', sans-serif;
+  background-color: #042037;
+  color: white;
+  font-size: 19px;
+}
+#new-account{
+  font-family: 'Oswald', sans-serif;
+  background-color: #042037;
+  color: white;
+  font-size: 19px;
+}
+.sign-up-wrapper{
+  margin-top: 150px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  border: 5px solid black;
+}
+
+.login-info-wrapper {
+  display: flex;
+}
+.navbar-header p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
+  color: #042037;
+
+}
+
+
+.nav-tabs>li>a {
+    margin-top: 8px;
+}
+
+.navbar-header {
+  width: 100%;
+}
+.dropdown-toggle{
+  width: 100%;
+  margin-top: 200px;
+}
+.page-title {
+  margin: 10px 0 30px;
+}
+.page-title h1 {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #042037;
+}
+.page-title p {
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+.column-header {
+  text-align: center;
+}
+.column-header p {
+  margin: 10px 0;
+}
+.column-header img {
+  width: 30%;
+  margin: 0 auto;
+}
+.alc-icon {
+  width: 80px;
+  height: auto;
+}
+.alcohol-name{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #042037;
+  font-size: 20px;
+}
+
+#google-btn {
+  width:150px;
+  height:30px;
+}
+
+#google-nav {
+  float: right;
+  border-bottom: white;
+
+}
+.alcohol-tag{
+  font-family: 'Oswald', sans-serif;
+}
+.alcohol-selection-wrapper {
+  min-height: 190px;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 5px solid #000;
+  cursor: pointer;
+  opacity: .9;
+}
+.alcohol-selection-wrapper:hover {
+  opacity: 1;
+}
+.alcohol-selection-wrapper.selected {
+  border: 5px solid #FFC500;
+  opacity: 1;
+}
+.alcohol-selection-thumb {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.alcohol-selection-thumb img {
+  height: 100px;
+}
+.btn-lg{
+  font-family: 'Oswald', sans-serif;
+  background-color: #042037;
+}
+footer {
+  margin: 30px 0 5px 0;
+  text-align: center;
+}
+
+.user-panel {
+ border: 5px solid #000;
+ opacity: 1
+}
+
+/* Modal.html code */
+
+.bs-example{
+  margin: 20px;
+  text-align: center;
+  color:black;
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+  .alcohol-selection-wrapper {
+    min-height: 225px;
+  }
+}
+
+#goog{
+  color:black;
+  /*border:1px bold black;*/
+}
